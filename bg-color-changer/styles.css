@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    .navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #ffebeb;
+    border: #333 .5px solid;
+}
+
+.nav {
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    height: 40px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#purple {
+    background-color: purple;
+}
+#green {
+    background-color: green;
+}
+#magenta {
+    background-color: magenta;
+}
+#blue {
+    background-color: blue;
+}
